@@ -1,12 +1,12 @@
-package Set6;
+package SET7.SET6;
+
 import java.util.Scanner;
 
 public class Set6_Q1 {
+
     public static void main(String args[]) {
-        // Write a program to check given two points of a line is parallel to X axis or
-             // Y Axis or not parallel to any axis in a Cartesian coordinate system.
-                Scanner sc = new Scanner(System.in) {
-            System.out.println("Enter the X value:-");
+        System.out.println("Enter the X value:-");
+        try (Scanner sc = new Scanner(System.in)) {
             int x = sc.nextInt();
             System.out.println("Enter the Y value");
             int y = sc.nextInt();
